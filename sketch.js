@@ -1,5 +1,5 @@
 let w = 500;
-let h = 790;
+let h = 780;
 
 let gravity = 0.7;
 
@@ -44,6 +44,12 @@ function keyTyped() {
         ySpeed = -13;
         loop();
     }
+}
+
+function mouseClicked() {
+    //jump
+    ySpeed = -13;
+    loop();
 }
 
 function drawSpikeBounds() {
